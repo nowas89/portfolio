@@ -1,0 +1,129 @@
+/*font-family: 'Lato', sans-serif;*/
+
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+
+/*font-family: 'Roboto', sans-serif;*/
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("../img/header.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-list {
+    max-width: 70%;
+    height: 118px;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20%;
+}
+
+.list-item {
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    margin-right: 55px;
+    margin-left: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+.line {
+    width: 100%;
+    background-color: #7d7d7d;
+    height: 1px;
+    position: absolute;
+    top: 118px;
+}
+
+.social-items {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 20%;
+}
+
+.social-items .fa {
+    color: white;
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 79px;
+    height: 75px;
+    background-image: url('../img/logo.png');
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+.header-content {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.header-content h1 {
+    font-size: 4em;
+    color: white;
+    letter-spacing: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-content p {
+    font-size: 1em;
+    color: #11749e;
+    letter-spacing: 1.6em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+/*.line-separator{
+  width: 30%;
+  background: white;
+  height: 1px;
+}*/
+.scroll-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/scroll.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 50px;
+}
