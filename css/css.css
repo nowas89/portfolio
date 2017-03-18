@@ -19,7 +19,7 @@ h1, p {
     margin: 0;
     padding: 0;
 }
-
+/*header content / logo and discriptions / nav*/
 .header {
     position: relative;
     height: 100vh;
@@ -116,14 +116,99 @@ h1, p {
   background: white;
   height: 1px;
 }*/
-.scroll-area{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100px;
-  background-image: url('../img/scroll.png');
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 50px;
+
+.scroll-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-image: url('../img/scroll.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 50px;
 }
+/*agency container*/
+.agency-container {
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    background-color: #11749e;
+}
+
+.info-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+}
+
+.feature-box {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-basis: 20%;
+    height: 60%;
+    flex-direction: column;
+}
+
+.text-logo {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-logo span {
+    font-size: 24rem;
+    color: #3c8daf;
+}
+
+.text-logo h2 {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 130px;
+    text-transform: uppercase;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature-box span {
+    height: 130px;
+    width: 130px;
+    background-color: #2e85aa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-box h1 {
+    font-family: 'Roboto' 700;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 3px;
+
+}
+
+.feature-box h2 {
+    display: flex;
+    font-size: 0.8rem;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+
+/*team area*/
