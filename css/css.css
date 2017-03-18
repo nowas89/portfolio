@@ -19,7 +19,10 @@ h1, p {
     margin: 0;
     padding: 0;
 }
+
+
 /*header content / logo and discriptions / nav*/
+
 .header {
     position: relative;
     height: 100vh;
@@ -128,7 +131,10 @@ h1, p {
     position: absolute;
     bottom: 50px;
 }
+
+
 /*agency container*/
+
 .agency-container {
     position: relative;
     height: 100vh;
@@ -196,7 +202,6 @@ h1, p {
     font-size: 1.2rem;
     color: white;
     letter-spacing: 3px;
-
 }
 
 .feature-box h2 {
@@ -212,3 +217,150 @@ h1, p {
 
 
 /*team area*/
+
+.team-container {
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-chapter1 {
+    height: 50%;
+    width: 100%;
+    background: #222222;
+    display: flex;
+}
+
+.team-chapter1 img {
+    flex-basis: 50%;
+
+}
+
+
+
+.team-chapter1 .news-card{
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+
+
+}
+.team-chapter1 .news-card h1{
+  margin-top: 10%;
+  margin-left: 20%;
+font-size: 1rem;
+  font-weight: 100;
+}
+.team-chapter1 .news-card p{
+  margin-left: 20%;
+  max-width: 60%;
+  overflow: hidden;
+}
+
+.team-chapter1 .news-card h3{
+  margin-left: 20%;
+  font-size: 1.5rem;
+}
+
+/*team chapter 2 styling*/
+.team-chapter2 {
+    height: 50%;
+    width: 100%;
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.team-chapter2 img {
+    flex-basis: 50%;
+
+}
+
+.team-chapter2 .news-card{
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+
+}
+.team-chapter2 .news-card h1{
+  margin-top: 10%;
+  margin-left: 20%;
+font-size: 1rem;
+  font-weight: 100;
+}
+.team-chapter2 .news-card p{
+  margin-left: 20%;
+  max-width: 60%;
+  overflow: hidden;
+}
+
+.team-chapter2 .news-card h3{
+  margin-left: 20%;
+  font-size: 1.5rem;
+
+}
+
+/*blog*/
+
+.blog{
+  max-width: 100%;
+  height: 100vh;
+  background: white;
+
+  position: relative;
+}
+.logo-area{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.blog-columns{
+  outline: 1px black dashed;
+  height: 60%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.blog-card{
+  outline: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 22%;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.blog-card img{
+  width: 100%;
+  height: 50%;
+}
+.logo-area h1{
+  font-size: 17rem;
+  color: #d7d7d7;
+  position: relative;
+}
+.logo-area h2{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  letter-spacing: 8px;
+  top: 14%;
+  font-weight: 700;
+}
+.logo-area h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  position: absolute;
+  top: 28%;
+}
