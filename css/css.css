@@ -324,8 +324,8 @@ font-size: 1rem;
 
 }
 .blog-columns{
-  outline: 1px black dashed;
-  height: 60%;
+
+  height: 58%;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -334,11 +334,10 @@ font-size: 1rem;
   overflow: hidden;
 }
 .blog-card{
-  outline: 1px red solid;
+
   display: flex;
   flex-direction: column;
   flex-basis: 22%;
-  padding: 10px;
   font-size: 0.8rem;
 }
 .blog-card img{
@@ -355,12 +354,164 @@ font-size: 1rem;
   text-transform: uppercase;
   position: absolute;
   letter-spacing: 8px;
-  top: 14%;
+  top: 140px;
   font-weight: 700;
+
 }
 .logo-area h3{
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   position: absolute;
-  top: 28%;
+  top: 250px;
+}
+
+.blog-card h2{
+  font-size: 1rem;
+  margin-top: 40px;
+  padding: 20px 20px;
+  color: #3f3f3f;
+}
+.blog-card h1{
+  color: #11749e;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  letter-spacing: 3px;
+}
+/*skills area*/
+.siills-container {
+height: 100vh;
+max-width: 100%;
+background: #006699;
+}
+
+.skills-header{
+  height: 25%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+.skills-header .first-content,
+.skills-header .second-content{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.skills-header .first-content span,
+.skills-header .second-content span {
+  height: 100%;
+  width: 50%;
+}
+
+.skills-header .first-content img,
+.skills-header .second-content img{
+  height: 60px;
+  width: 60px;
+}
+
+.skills-header .first-content h1,
+.skills-header .second-content h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  color: white;
+margin-top: 80px;;
+font-weight: 100;
+color: #dfecf2;
+
+
+}
+
+.skills-content{
+  box-sizing: border-box;
+  height: 75%;
+  width: 100%;
+  background-image: url('../img/background-skills.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    overflow: hidden;
+}
+.skills-content .stock-place{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.skills-content .stock-place img{
+  transform: scale(0.8);
+  display: flex;
+margin: auto;
+}
+.skills-content  .skills-area{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  color: white;
+  font-size: 0.8rem;
+}
+.skills-area .skills-content{
+  height: 80%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-text{
+  height: 45%;
+  width: 70%;
+display: flex;
+flex-direction: column;
+
+}
+.skills-text h2{
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+.skills-text h1{
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+.skills-content span{
+  height: 40px;
+  width: 360px;
+  background: #11749e;
+  margin-top: 15px;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.skills-content span h1{
+  display: flex;
+position: absolute;
+left: 5px;
+top: 9px;
+font-size: 0.8rem;
+font-family: 'Open Sans', sans-serif;
+font-weight: 200;
+align-items:center;
+}
+
+.skills-content span:nth-child(3){
+  width: 410px;
+}
+.skills-content span:nth-child(4){
+  width: 510px;
 }
