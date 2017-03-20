@@ -234,39 +234,38 @@ h1, p {
 
 .team-chapter1 img {
     flex-basis: 50%;
-
 }
 
-
-
-.team-chapter1 .news-card{
-  display: flex;
-  flex-basis: 50%;
-  flex-direction: column;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-
-
-}
-.team-chapter1 .news-card h1{
-  margin-top: 10%;
-  margin-left: 20%;
-font-size: 1rem;
-  font-weight: 100;
-}
-.team-chapter1 .news-card p{
-  margin-left: 20%;
-  max-width: 60%;
-  overflow: hidden;
+.team-chapter1 .news-card {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
 }
 
-.team-chapter1 .news-card h3{
-  margin-left: 20%;
-  font-size: 1.5rem;
+.team-chapter1 .news-card h1 {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 1rem;
+    font-weight: 100;
 }
+
+.team-chapter1 .news-card p {
+    margin-left: 20%;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+.team-chapter1 .news-card h3 {
+    margin-left: 20%;
+    font-size: 1.5rem;
+}
+
 
 /*team chapter 2 styling*/
+
 .team-chapter2 {
     height: 50%;
     width: 100%;
@@ -274,279 +273,352 @@ font-size: 1rem;
     display: flex;
     flex-direction: row-reverse;
 }
+
 .team-chapter2 img {
     flex-basis: 50%;
-
 }
 
-.team-chapter2 .news-card{
-  display: flex;
-  flex-basis: 50%;
-  flex-direction: column;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-
-}
-.team-chapter2 .news-card h1{
-  margin-top: 10%;
-  margin-left: 20%;
-font-size: 1rem;
-  font-weight: 100;
-}
-.team-chapter2 .news-card p{
-  margin-left: 20%;
-  max-width: 60%;
-  overflow: hidden;
+.team-chapter2 .news-card {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
 }
 
-.team-chapter2 .news-card h3{
-  margin-left: 20%;
-  font-size: 1.5rem;
-
+.team-chapter2 .news-card h1 {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 1rem;
+    font-weight: 100;
 }
+
+.team-chapter2 .news-card p {
+    margin-left: 20%;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+.team-chapter2 .news-card h3 {
+    margin-left: 20%;
+    font-size: 1.5rem;
+}
+
 
 /*blog*/
 
-.blog{
-  max-width: 100%;
-  height: 100vh;
-  background: white;
-
-  position: relative;
-}
-.logo-area{
-  height: 40%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-.blog-columns{
-
-  height: 58%;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  justify-content: space-between;
-  overflow: hidden;
-}
-.blog-card{
-
-  display: flex;
-  flex-direction: column;
-  flex-basis: 22%;
-  font-size: 0.8rem;
-}
-.blog-card img{
-  width: 100%;
-  height: 50%;
-}
-.logo-area h1{
-  font-size: 17rem;
-  color: #d7d7d7;
-  position: relative;
-}
-.logo-area h2{
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  letter-spacing: 8px;
-  top: 140px;
-  font-weight: 700;
-
-}
-.logo-area h3{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-  position: absolute;
-  top: 250px;
+.blog {
+    max-width: 100%;
+    height: 100vh;
+    background: white;
+    position: relative;
 }
 
-.blog-card h2{
-  font-size: 1rem;
-  margin-top: 40px;
-  padding: 20px 20px;
-  color: #3f3f3f;
-}
-.blog-card h1{
-  color: #11749e;
-  text-align: center;
-  text-transform: uppercase;
-  padding-top: 10px;
-  letter-spacing: 3px;
-}
-/*skills area*/
-.siills-container {
-height: 100vh;
-max-width: 100%;
-background: #006699;
+.logo-area {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.skills-header{
-  height: 25%;
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  align-items: center;
-  font-size: 0.8rem;
-  overflow: hidden;
-}
-
-.skills-header .first-content,
-.skills-header .second-content{
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.skills-header .first-content span,
-.skills-header .second-content span {
-  height: 100%;
-  width: 50%;
-}
-
-.skills-header .first-content img,
-.skills-header .second-content img{
-  height: 60px;
-  width: 60px;
-}
-
-.skills-header .first-content h1,
-.skills-header .second-content h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.8rem;
-  color: white;
-margin-top: 80px;;
-font-weight: 100;
-color: #dfecf2;
-
-
-}
-
-.skills-content{
-  box-sizing: border-box;
-  height: 75%;
-  width: 100%;
-  background-image: url('../img/background-skills.png');
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.blog-columns {
+    height: 58%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
     overflow: hidden;
 }
-.skills-content .stock-place{
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.skills-content .stock-place img{
-  transform: scale(0.8);
-  display: flex;
-margin: auto;
-}
-.skills-content  .skills-area{
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-align-items: center;
-  color: white;
-  font-size: 0.8rem;
-}
-.skills-area .skills-content{
-  height: 80%;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 22%;
+    font-size: 0.8rem;
 }
 
-.skills-text{
-  height: 45%;
-  width: 70%;
-display: flex;
-flex-direction: column;
-
-}
-.skills-text h2{
-  font-size: 1.2rem;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-}
-.skills-text h1{
-  font-size: 0.9rem;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-}
-.skills-content span{
-  height: 40px;
-  width: 360px;
-  background: #11749e;
-  margin-top: 15px;
-  text-transform: uppercase;
-  position: relative;
-
+.blog-card img {
+    width: 100%;
+    height: 50%;
 }
 
-.skills-content span h1{
-  display: flex;
-position: absolute;
-left: 5px;
-top: 9px;
-font-size: 0.8rem;
-font-family: 'Open Sans', sans-serif;
-font-weight: 200;
-align-items:center;
+.logo-area h1 {
+    font-size: 17rem;
+    color: #d7d7d7;
+    position: relative;
 }
 
-.skills-content span:nth-child(3){
-  width: 410px;
+.logo-area h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    letter-spacing: 8px;
+    top: 140px;
+    font-weight: 700;
 }
-.skills-content span:nth-child(4){
-  width: 510px;
-}
-.team-container{
-  height: 100vh;
-  max-width: 100%;
-  background: #ffffff;
-}
-.team-text{
-  width: 100%;
-  height: 40%;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+.logo-area h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    position: absolute;
+    top: 250px;
 }
-.team-text h1{
-  font-size: 15rem;
-  color: #d7d7d7;
-  text-transform: uppercase;
 
+.blog-card h2 {
+    font-size: 1rem;
+    margin-top: 40px;
+    padding: 20px 20px;
+    color: #3f3f3f;
 }
-.team-text h2{
-  position: absolute;
-  top: 110px;
-letter-spacing: 5px;
-font-size: 2rem;
+
+.blog-card h1 {
+    color: #11749e;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    letter-spacing: 3px;
 }
-.team-text p{
-  font-size: 2rem;
+
+
+/*skills area*/
+
+.siills-container {
+    height: 100vh;
+    max-width: 100%;
+    background: #006699;
 }
+
+.skills-header {
+    height: 25%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    font-size: 0.8rem;
+    overflow: hidden;
+}
+
+.skills-header .first-content, .skills-header .second-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills-header .first-content span, .skills-header .second-content span {
+    height: 100%;
+    width: 50%;
+}
+
+.skills-header .first-content img, .skills-header .second-content img {
+    height: 60px;
+    width: 60px;
+}
+
+.skills-header .first-content h1, .skills-header .second-content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 80px;
+    ;
+    font-weight: 100;
+    color: #dfecf2;
+}
+
+.skills-content {
+    box-sizing: border-box;
+    height: 75%;
+    width: 100%;
+    background-image: url('../img/background-skills.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.skills-content .stock-place {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.skills-content .stock-place img {
+    transform: scale(0.8);
+    display: flex;
+    margin: auto;
+}
+
+.skills-content .skills-area {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.skills-area .skills-content {
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-text {
+    height: 45%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-text h2 {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.skills-text h1 {
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.skills-content span {
+    height: 40px;
+    width: 360px;
+    background: #11749e;
+    margin-top: 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.skills-content span h1 {
+    display: flex;
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    align-items: center;
+}
+
+.skills-content span:nth-child(3) {
+    width: 410px;
+}
+
+.skills-content span:nth-child(4) {
+    width: 510px;
+}
+
+.team-container {
+    height: 100vh;
+    max-width: 100%;
+    background: #ffffff;
+}
+
+.team-text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.team-text h1 {
+    font-size: 15rem;
+    color: #d7d7d7;
+    text-transform: uppercase;
+}
+
+.team-text h2 {
+    position: absolute;
+    top: 110px;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+
+.team-text p {
+    font-size: 2rem;
+}
+
 .team-info {
-  height: 60%;
-  width: 100%;
-    outline: 1px red solid;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
 
+.person-area img {
+    height: 410px;
+    width: 320px;
+}
+
+.person-area {
+    height: 410px;
+    width: 320px;
+    position: relative;
+    display: flex;
+}
+
+.person-area span {
+    width: 220px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-area span h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #11749e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.person-area span h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*contanct container*/
+
+.contact-container{
+max-width: 100%;
+height: 100vh;
+background-image: url('../img/contact-bg.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
 }
