@@ -143,8 +143,9 @@ function initMap() {
 
 // hamburger ico plus toggle class
 document.querySelector("#nav-toggle").addEventListener("click", function() {
-      var hamburger = document.querySelector('.hamburger-section')
-      hamburger.classList.toggle("active");
+      var hamburger = document.querySelector('.hamburger-section');
+      hamburger.classList.toggle("hidden");
+      this.classList.toggle('active');
 
         console.log('dziala');
     });

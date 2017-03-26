@@ -8,24 +8,18 @@
     .header .logo {
         display: none;
     }
-
-
     .hamburger-section {
         display: flex;
         position: relative;
         height: 100vh;
-        width: 70%;
-        background: black;
+        width: 50%;
+        background: rgba(0, 0, 0, 0.4);
+        animation: width-animation 1.2s ease-in-out;
+        overflow: hidden;
     }
-
-
-
-
-
-.active{
-  display: none;
-}
-
+    .hidden {
+        display: none;
+    }
     #nav-toggle {
         position: absolute;
         left: 50px;
@@ -70,6 +64,74 @@
     /*display none for large screen properties*/
     .nav-list, .line, .social-items {
         display: none;
+    }
+    /*nav list ghamburger*/
+    .nav-list-hamburger {
+        height: 70%;
+        width: 70%;
+
+        display: flex;
+        color: white;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: absolute;
+        justify-content: space-between;
+        margin-top: 50px;
+        top: 0;
+        right: 0;
+        font-size: 2rem;
+    }
+    .nav-list-hamburger li {
+          white-space: nowrap;
+        padding: 20px;
+        position: relative;
+    }
+    .social-items-hamburger {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        color: white;
+        height: 30%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .social-items-hamburger .fa{
+      transition: transform 0.6s ease-in-out;
+    }
+.social-items-hamburger .fa-facebook:hover{
+  color: #3b5998;
+  transform: scale(2);
+}
+
+.social-items-hamburger .fa-twitter:hover{
+  color: #0084b4;
+  transform: scale(2);
+}
+.social-items-hamburger .fa-skype:hover{
+  color: #12A5F4;
+  transform: scale(2);
+}
+.social-items-hamburger .fa-instagram:hover{
+  color: #32506d;
+  transform: scale(2);
+  
+}
+
+    .social-items-hamburger span {
+        display: flex;
+        padding: 20px;
+    }
+    /*keyframes*/
+    @keyframes width-animation {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 50%;
+        }
     }
 }
 
