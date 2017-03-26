@@ -15,6 +15,11 @@ body, ul, li {
     font-weight: 200;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1, p {
     margin: 0;
     padding: 0;
@@ -34,6 +39,11 @@ h1, p {
     background-size: cover;
 }
 
+.navbar {
+    width: 100%;
+    min-height: 118px;
+}
+
 .nav-list {
     max-width: 70%;
     height: 118px;
@@ -43,6 +53,15 @@ h1, p {
     justify-content: center;
     align-items: center;
     right: 20%;
+}
+
+.nav-list a {
+    color: inherit;
+    cursor: pointer;
+}
+
+.nav-toggle {
+    display: none;
 }
 
 .list-item {
@@ -77,6 +96,7 @@ h1, p {
 .social-items .fa {
     color: white;
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .logo {
@@ -89,12 +109,12 @@ h1, p {
 }
 
 .header-content {
+    display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: flex;
-    height: 100vh;
+    height: 80vh;
 }
 
 .header-content h1 {
@@ -130,6 +150,7 @@ h1, p {
     background-repeat: no-repeat;
     position: absolute;
     bottom: 50px;
+    cursor: pointer;
 }
 
 
@@ -140,6 +161,7 @@ h1, p {
     height: 100vh;
     max-width: 100%;
     background-color: #11749e;
+    overflow: hidden;
 }
 
 .info-area {
@@ -706,32 +728,33 @@ h1, p {
 
 /*footer and googlemap api*/
 
-.footer{
-  height: 600px;
-  max-width: 100%;
-  background: #222222;
+.footer {
+    height: 600px;
+    max-width: 100%;
+    background: #222222;
 }
-.googlemaps{
-  height: 80%;
-  width: 100%;
-}
-.footer span{
-  display: flex;
-  justify-content: space-between;
 
-  flex-direction: row;
+.googlemaps {
+    height: 80%;
+    width: 100%;
 }
-.footer span h1{
-  color: white;
-  font-size: 0.8rem;
-  opacity: 0.4;
-    margin:60px auto;
+
+.footer span {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
-.footer span h2{
 
-  color: white;
-  font-size: 0.8rem;
-  opacity: 0.4;
-  margin: auto;
+.footer span h1 {
+    color: white;
+    font-size: 0.8rem;
+    opacity: 0.4;
+    margin: 60px auto;
+}
 
+.footer span h2 {
+    color: white;
+    font-size: 0.8rem;
+    opacity: 0.4;
+    margin: auto;
 }
