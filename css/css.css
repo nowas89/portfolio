@@ -142,7 +142,7 @@ h1, p {
   height: 1px;
 }*/
 
-.scroll-area {
+/*.scroll-area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,8 +153,13 @@ h1, p {
     position: absolute;
     bottom: 50px;
     cursor: pointer;
-}
+}*/
 
+
+.scroll-area{
+  height: 100px;
+  width: 100px;
+}
 
 /*agency container*/
 
