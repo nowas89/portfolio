@@ -225,7 +225,7 @@ display: none;
 
 .blog-card2, .blog-card4{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 .blog-card img{
 
