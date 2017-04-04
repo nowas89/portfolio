@@ -5,7 +5,7 @@
         background-image: url('../img/backogrund-medium-device.png');
         background-size: cover;
     }
-    .header .logo {
+    .header .logo, .scroll-area {
         display: none;
     }
     .hamburger-section {
