@@ -192,6 +192,7 @@
 	}
 	.team-chapter2 .news-card p,
 	.team-chapter1 .news-card p {
+        font-size: 0.8rem;
 		margin-left: 20%;
 		max-width: 60%;
 		overflow: visible;

@@ -138,16 +138,26 @@ function initMap() {
 	});
 }
 
-
-
+//function checking #nav-toggle does it contain active class
+//function checkActiveClass() {
+//    var hamburger = document.querySelector('.hamburger-section');
+//    var hamburgerNavigation = document.querySelector("#nav-toggle");
+//    
+//        if(hamburgerNavigation.classList.contains("active")){
+//            document.addEventListener('click', function(){
+//                
+//            });
+//        }else{
+//            console.log('nie dziala');
+//        }
+//    };
 
 // hamburger ico plus toggle class
-document.querySelector("#nav-toggle").addEventListener("click", function () {
+var hamburgerNavigation = document.querySelector("#nav-toggle").addEventListener("click", function () {
 	var hamburger = document.querySelector('.hamburger-section');
 	hamburger.classList.toggle("hidden");
 	this.classList.toggle('active');
-
-	console.log('dziala');
+    
 });
 
 
