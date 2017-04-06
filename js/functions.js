@@ -147,9 +147,7 @@ function initMap() {
 //            document.addEventListener('click', function(){
 //                
 //            });
-//        }else{
-//            console.log('nie dziala');
-//        }
+//
 //    };
 
 // hamburger ico plus toggle class
@@ -157,7 +155,6 @@ var hamburgerNavigation = document.querySelector("#nav-toggle").addEventListener
 	var hamburger = document.querySelector('.hamburger-section');
 	hamburger.classList.toggle("hidden");
 	this.classList.toggle('active');
-    
 });
 
 
